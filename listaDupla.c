@@ -119,4 +119,6 @@ void ordenacaoListaDupla(ListaDupla l){
       insereDepois (aux , aux->z->prev, menor);
       t = t-> next;
   }
+  destroiLista(l);
+  l = aux;
 }
