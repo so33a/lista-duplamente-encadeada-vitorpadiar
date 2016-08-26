@@ -23,5 +23,6 @@ void imprime(ListaDupla l);
 void imprimeReverso(ListaDupla l);
 void destroiLista(ListaDupla l);
 link encontraMenor(ListaDupla l);
+void ordenacaoListaDupla(ListaDupla l);
 
 #endif
