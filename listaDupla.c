@@ -114,7 +114,7 @@ void ordenacaoListaDupla(ListaDupla l){
   link t = l-> head;
   aux = incializa();
   menor->item = l->head;
-  while( l->head != l->z ){
+  while( t != l->z ){
       menor = removeNo (encontraMenor(l));
       insereDepois (aux , aux->z->prev, menor);
       t = t-> next;
